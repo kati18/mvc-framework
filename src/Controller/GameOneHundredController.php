@@ -25,7 +25,6 @@ use Symfony\Component\Routing\Annotation\Route;
 class GameOneHundredController extends AbstractController
 {
     /**
-     * @var string $message A property for unit tests
      * @var RequestStack $requestStack The requestStack service object needed for getting the session
      */
     // private $message;
@@ -211,33 +210,6 @@ class GameOneHundredController extends AbstractController
         //     "totScorePlayer" => $totScorePlayer,
         //     "totScoreComputer" => $totScoreComputer
         // ];
-
-        // Below 11 rows outcommented 211026:
-        // if ($gameOver != null) {
-        //     return $this->redirectToRoute('game_one_hundred_win', [], 301);
-        // }
-        //
-        // if ($currentPlayer == "Computer") {
-        //     return $this->redirectToRoute('game_one_hundred_init_play_computer', [], 301);
-        // }
-        //
-        // if ($currentPlayer == "You") {
-        //     return $this->redirectToRoute('game_one_hundred_play', [], 301);
-        // }
-
-        // //Test 211026:
-        // // $returnRoute = ($gameOver != null) ? 'game_one_hundred_win' : (($currentPlayer == "Computer") ? 'game_one_hundred_init_play_computer' : (($currentPlayer == "You") ? 'game_one_hundred_play' : ''));
-        //
-        // $returnRoute = ($gameOver != null)
-        //     ? 'game_one_hundred_win'
-        //     : (($currentPlayer == "Computer")
-        //     ? 'game_one_hundred_init_play_computer'
-        //     : (($currentPlayer == "You")
-        //     ? 'game_one_hundred_play'
-        //     : ''));
-        //
-        // return $this->redirectToRoute($returnRoute, [], 301);
-        // //End test 211026
 
         //Test 211027:
             $returnRoute = ($gameOver != null)

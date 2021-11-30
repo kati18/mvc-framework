@@ -8,3 +8,7 @@ v1.0.0 (2021-11-14)
 v5.0.0 (2021-11-28)
 -------------------
 * Kmom05 done - using Doctrine ORM implementation of SQLite database for fetching and storing data.
+
+v6.0.0 (2021-11-30)
+-------------------
+* Kmom06 - added .scrutinizer.yml and bagdes for Scrutinizer in README.md.

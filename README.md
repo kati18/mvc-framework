@@ -2,6 +2,13 @@
 
 This project was generated with [Symfony CLI](https://symfony.com/download) version 4.26.8.
 
+<!-- [![Build Status](https://travis-ci.com/kati18/mvc-framework.svg?branch=master)](https://travis-ci.org/kati18/mvc-framework) -->
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kati18/mvc-framework/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kati18/mvc-framework/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/kati18/mvc-framework/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kati18/mvc-framework/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/kati18/mvc-framework/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kati18/mvc-framework/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/kati18/mvc-framework/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 ## Development server
 
 Run `symfony serve` or `php -S localhost:8000 -t public/` for a dev server. Navigate to `http://localhost:8000/`.

@@ -201,6 +201,28 @@ class ControllerGameOneHundredReturnsResponseTest extends KernelTestCase
     }
 
     /**
+     * Testcase that asserts that the controller save returns a response.
+     */
+    public function testControllerSaveReturnsResponseArg()
+    {
+        $this->sessionObj->set('gameOneHundred', new GameOneHundred(totScorePlayer: 101));
+
+        $exp = "\Symfony\Component\HttpFoundation\Response";
+        //alt. below row:
+        // $exp = Response::class;
+
+        // echo "exp från testControllerSaveReturnsResponse:\n";
+        // echo $exp;
+        $res = $this->gameOneHundredControllerObj->save();
+        // echo "res från testControllerSaveReturnsResponse:\n";
+        // echo $res;
+        // var_dump($res);
+
+        $this->assertInstanceOf($exp, $res);
+        // unset($this->gameOneHundredControllerObj);
+    }
+
+    /**
      * Testcase that asserts that the controller initPlayComputer returns a response.
      */
     public function testControllerInitPlayComputerReturnsResponse()

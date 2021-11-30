@@ -42,7 +42,7 @@ class DiceHand
      * Rolls all dice by invoking the method rollDice in class Dice.
      * Saves the faces of the dice.
      *
-     * @return void.
+     * @return void
      */
     public function rollDiceHand(): void
     {
@@ -76,9 +76,9 @@ class DiceHand
     /**
      * Gets the sum of all faces of the dice in last roll.
      *
-     * @return int as the sum of all dice.
+     * @return int|float as the sum of all dice.
      */
-    public function sum(): int
+    public function sum(): int|float
     {
         $sum = array_sum($this->faces);
         // echo "this->faces från sum():\n";
