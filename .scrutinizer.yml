@@ -14,8 +14,8 @@ build:
     tests:
         override:
             -
-                # command: "make phpunit"
-                command: "make test"
+                command: "make phpunit"
+                # command: "make test"
                 coverage:
                     file: "build/coverage.clover"
                     format: "php-clover"
