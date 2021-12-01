@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1638304429">
-  <project timestamp="1638304429">
+<coverage generated="1638380930">
+  <project timestamp="1638380930">
     <file name="C:\cygwin64\home\katja\dbwebb-kurser\mvc\me\ci\src\Controller\BookController.php">
       <class name="App\Controller\BookController" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
@@ -249,8 +249,8 @@
       <line num="70" type="stmt" count="19"/>
       <line num="83" type="method" name="getInitRollFaceDice" visibility="public" complexity="2" crap="2" count="3"/>
       <line num="85" type="stmt" count="3"/>
-      <line num="86" type="stmt" count="2"/>
-      <line num="87" type="stmt" count="2"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="87" type="stmt" count="1"/>
       <line num="89" type="stmt" count="3"/>
       <metrics loc="117" ncloc="47" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="14" coveredelements="14"/>
     </file>
@@ -275,14 +275,14 @@
       <line num="64" type="stmt" count="1"/>
       <line num="71" type="method" name="getDiceFacesDiceHand" visibility="public" complexity="1" crap="1" count="15"/>
       <line num="73" type="stmt" count="15"/>
-      <line num="81" type="method" name="sum" visibility="public" complexity="1" crap="1" count="12"/>
-      <line num="83" type="stmt" count="12"/>
-      <line num="86" type="stmt" count="12"/>
+      <line num="81" type="method" name="sum" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="83" type="stmt" count="8"/>
+      <line num="86" type="stmt" count="8"/>
       <line num="105" type="method" name="checkIfOne" visibility="public" complexity="3" crap="3" count="13"/>
       <line num="107" type="stmt" count="13"/>
       <line num="108" type="stmt" count="13"/>
-      <line num="109" type="stmt" count="5"/>
-      <line num="111" type="stmt" count="10"/>
+      <line num="109" type="stmt" count="8"/>
+      <line num="111" type="stmt" count="7"/>
       <metrics loc="113" ncloc="64" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="25" coveredelements="25"/>
     </file>
     <file name="C:\cygwin64\home\katja\dbwebb-kurser\mvc\me\ci\src\Dice\GameOneHundred.php">
@@ -319,10 +319,10 @@
       <line num="228" type="stmt" count="5"/>
       <line num="229" type="stmt" count="5"/>
       <line num="230" type="stmt" count="5"/>
-      <line num="231" type="stmt" count="5"/>
+      <line num="231" type="stmt" count="2"/>
       <line num="233" type="stmt" count="5"/>
-      <line num="234" type="stmt" count="1"/>
-      <line num="237" type="stmt" count="6"/>
+      <line num="234" type="stmt" count="3"/>
+      <line num="237" type="stmt" count="3"/>
       <line num="248" type="method" name="getDiceFacesGame" visibility="public" complexity="1" crap="1" count="10"/>
       <line num="250" type="stmt" count="10"/>
       <line num="258" type="method" name="setRoundScoreGame" visibility="public" complexity="1" crap="1" count="7"/>
@@ -376,12 +376,12 @@
       <line num="98" type="stmt" count="12"/>
       <line num="107" type="method" name="getDiceFacesGameRound" visibility="public" complexity="1" crap="1" count="12"/>
       <line num="109" type="stmt" count="12"/>
-      <line num="119" type="method" name="getSumGameRound" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="121" type="stmt" count="2"/>
+      <line num="119" type="method" name="getSumGameRound" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="121" type="stmt" count="1"/>
       <line num="139" type="method" name="setRoundScoreGameRound" visibility="public" complexity="2" crap="2" count="12"/>
       <line num="141" type="stmt" count="12"/>
-      <line num="142" type="stmt" count="4"/>
-      <line num="143" type="stmt" count="10"/>
+      <line num="142" type="stmt" count="8"/>
+      <line num="143" type="stmt" count="6"/>
       <line num="144" type="stmt" count="12"/>
       <line num="150" type="method" name="setRoundScoreGameRoundToZero" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="152" type="stmt" count="1"/>

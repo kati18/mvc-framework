@@ -4,10 +4,10 @@ Testing
 ................................................................. 65 / 80 ( 81%)
 ...............                                                   80 / 80 (100%)
 
-Time: 00:03.878, Memory: 40.00 MB
+Time: 00:04.780, Memory: 40.00 MB
 
 [30;42mOK (80 tests, 164 assertions)[0m
 
-Generating code coverage report in Clover XML format ... done [00:00.206]
+Generating code coverage report in Clover XML format ... done [00:00.338]
 
-Generating code coverage report in HTML format ... done [00:00.549]
+Generating code coverage report in HTML format ... done [00:00.558]
