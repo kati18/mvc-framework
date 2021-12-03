@@ -59,13 +59,13 @@ class HighScoreController extends AbstractController
     {
         $highScores = $highScoreRepository->findAll();
 
-        if (empty($highScores)) {
-            return new Response(
-                "No data found",
-                Response::HTTP_NOT_FOUND,
-                ['content-type' => 'text/plain']
-            );
-        }
+        // if (empty($highScores)) {
+        //     return new Response(
+        //         "No data found",
+        //         Response::HTTP_NOT_FOUND,
+        //         ['content-type' => 'text/plain']
+        //     );
+        // }
 
         return $this->render('high_score/index.html.twig', [
             'controller_name' => 'HighScoreController',

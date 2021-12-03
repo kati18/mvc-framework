@@ -114,9 +114,9 @@ class GameRound
     * Returns the sum of the facevalues of the rolled dice by invoking
     * the method sum in class DiceHand. Method used for unit testing only.
     *
-    * @return int as the sum of the facevalues of the rolled dice
+    * @return int|float as the sum of the facevalues of the rolled dice
     */
-    public function getSumGameRound(): int
+    public function getSumGameRound(): int|float
     {
         return $this->diceHand->sum();
     }

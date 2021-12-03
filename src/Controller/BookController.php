@@ -24,18 +24,18 @@ class BookController extends AbstractController
     {
         $books = $bookRepository->findAll();
 
-        if (empty($books)) {
-            return new Response(
-                "No data found",
-                Response::HTTP_NOT_FOUND,
-                ['content-type' => 'text/plain']
-            );
-        }
+        // if (empty($books)) {
+        //     return new Response(
+        //         "No data found",
+        //         Response::HTTP_NOT_FOUND,
+        //         ['content-type' => 'text/plain']
+        //     );
+        // }
 
         return $this->render('book/index.html.twig', [
             'controller_name' => 'BookController',
             'route_name_of_controller' => 'book_all',
-            'books' => $books
+            'books' => $books,
         ]);
     }
 }

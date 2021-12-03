@@ -12,3 +12,15 @@ v5.0.0 (2021-11-28)
 v6.0.0 (2021-11-30)
 -------------------
 * Kmom06 - added .scrutinizer.yml and bagdes for Scrutinizer in README.md.
+
+v6.0.1 (2021-11-30)
+-------------------
+* Kmom06 - .scrutinizer.yml edited.
+
+v6.0.2 (2021-12-01)
+-------------------
+* Kmom06 - .scrutinizer.yml edited.
+
+v6.0.3 (2021-12-01)
+-------------------
+* Kmom06 - .scrutinizer.yml edited and unite tests for HighScoreController and BookController added.
