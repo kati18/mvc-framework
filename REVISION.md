@@ -32,3 +32,7 @@ v6.0.4 (2021-12-03)
 v6.0.5 (2021-12-03)
 -------------------
 * Kmom06 done - path for bagde for Travis edited in README.md.
+
+v6.0.6 (2021-12-03)
+-------------------
+* Kmom06 done - path for bagde for Travis edited in README.md.
