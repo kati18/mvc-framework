@@ -21,6 +21,10 @@ v6.0.2 (2021-12-01)
 -------------------
 * Kmom06 - .scrutinizer.yml edited.
 
-v6.0.3 (2021-12-01)
+v6.0.3 (2021-12-03)
 -------------------
-* Kmom06 - .scrutinizer.yml edited and unite tests for HighScoreController and BookController added.
+* Kmom06 - .scrutinizer.yml edited and unit tests for HighScoreController and BookController added.
+
+v6.0.4 (2021-12-03)
+-------------------
+* Kmom06 - .travis.yml and bagde for Travis in README.md.
