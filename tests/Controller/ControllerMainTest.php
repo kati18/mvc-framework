@@ -57,6 +57,7 @@ class ControllerMainTest extends WebTestCase
      * Testcase that asserts that the controller me returns:
      * - a response with correct status code
      * - a successful response
+     * - a HTML element with attribute class="heading"
      * - a response that contains the correct content
      */
     public function testControllerMeReturnsStatusCodeAndContent()
@@ -69,8 +70,8 @@ class ControllerMainTest extends WebTestCase
         );
 
         $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains('h1', 'Katja');
         $this->assertCount(1, $crawler->filter('.heading'));
+        $this->assertSelectorTextContains('h1', 'Katja');
         $this->assertSelectorTextContains('h5', 'plockar kantareller och lingon, lagar god mat och ser på film och hockey');
 
         // unset($client);
